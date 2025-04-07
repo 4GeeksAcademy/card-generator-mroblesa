@@ -4,8 +4,19 @@ import "./style.css";
 
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
+//
+let pokerPals = ["diamond", "club", "heart", "spade"]
+const cardVariables = ["A", "2", "3", "4", "5", "6", "7", "8", "9","J", "Q", "K"]
+
+function getRandomNumber (arr) {
+  let randomIndex = Math.floor(Math.random() * arr.length);
+  return arr[randomIndex];
+};
 
 window.onload = function() {
+
+  
   //write your code here
-  console.log("Hello Rigo from the console!");
+  console.log (getRandomNumber[cardVariables]);
+
 };
