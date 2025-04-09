@@ -4,9 +4,8 @@
     <meta charset="UTF-8" />
     <link rel="icon" href="./assets/img/4geeks.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
+    <title>Your poker Card</title>
 
-    <!-- Fontawesome is our recomended library for icons -->
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
@@ -15,12 +14,15 @@
     />
   </head>
   <body>
+    <div class="m-4 fs-1 text-center text-warning fw-bold">¡Your Poker Card!</div>
     <div id="card" class="card">
-      <div class="diamond-up">♦</div>
-      <div class="card-number">3</div>
-      <div id="figures" class="diamond-down">♦</div>
+      <div id="figures-up" class="pal-up ">♣</div>
+      <div id="card-number1" class="card-number">3</div>
+      <div id="figures-down" class="pal-down ">♣</div>
     </div>
-    <!-- Do not delete this script tag, this is what connects your HTML with the Javascript code -->
+   <button id='button-card' class="btn btn-warning d-flex m-auto">
+     Generate poker card
+    </button>
     <script type="module" src="/app.js"></script>
   </body>
 </html>

@@ -10,16 +10,22 @@ body{
     background-color: white;
     border-radius: 20px;
     padding: 0px;
-    margin: 100px auto;
+    margin: 50px auto;
     position: relative;
     
 }
-.diamond-up {
+.pal-up{
     font-size: 100px;
     padding: 0%;
     margin-left: 30px;
-    display: flex ;
+  
 
+}
+.red {
+    color: red;
+}
+.black {
+    color: black;
 }
 .card-number { 
     display: flex;
@@ -29,11 +35,12 @@ body{
     padding: 0%;
 
 }
-.diamond-down {
+.pal-down {
     font-size: 100px;
     padding: 0%;
     padding-top: 0%;
-    margin-left: 70% ;
+    margin-right: 10% ;
     margin-bottom: 0px;
     display: flex ;
+    transform: rotate(180deg)
 }
